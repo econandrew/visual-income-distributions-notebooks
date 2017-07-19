@@ -1,0 +1,182 @@
+{
+    "dist": {
+        "elasticity": {
+            "HC_wrt_mean_C": -1.03322,
+            "FGT2_wrt_mean_C": -0.205423,
+            "HC_wrt_Gini": 2.7552,
+            "PG_wrt_Gini": 5.50177,
+            "FGT2_wrt_Gini": 7.88102,
+            "PG_wrt_mean_C": -0.688195
+        },
+        "Watt": "0.0807128",
+        "uses": "neither",
+        "FGT2": 10.1935,
+        "poverty_uses": "Beta",
+        "PG": 11.2405,
+        "HC": 18.9762,
+        "poverty_uses_commentary": "(Both are invalid but beta is normal.)",
+        "uses_commentary": "(Neither GQ nor Beta is invalid)"
+    },
+    "lorenz": {
+        "L": [
+            0.002017907,
+            0.02360991,
+            0.06127101,
+            0.1112308,
+            0.1745509,
+            0.2529839,
+            0.3515921,
+            0.4795321,
+            0.6537864,
+            1.0
+        ],
+        "index": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+        ],
+        "p": [
+            0.1,
+            0.2,
+            0.3,
+            0.4,
+            0.5,
+            0.6,
+            0.7,
+            0.8,
+            0.9,
+            1.0
+        ]
+    },
+    "quadratic": {
+        "summary": {
+            "lorenz_validity": "Invalid",
+            "Z": {
+                "high": 904.062,
+                "low": 0.0
+            },
+            "sse_up_to_hcindex": 4.94435e-06,
+            "poverty_normality": "Abnormal",
+            "sse_fitted": 3.20869e-05
+        },
+        "reg": {
+            "SSE": 3.894351e-05,
+            "SST": 0.07064075,
+            "R2": 0.9994487,
+            "RMSE": 0.002547663,
+            "ymean": 0.1353793,
+            "MSE": 6.490585e-06,
+            "params": {
+                "A": {
+                    "coef": 1.17243,
+                    "t": 45.9597,
+                    "se": 0.02551
+                },
+                "B": {
+                    "coef": -0.847805,
+                    "t": -11.9681,
+                    "se": 0.070839
+                },
+                "C": {
+                    "t": -4.06072,
+                    "coef": -0.0601964,
+                    "se": 0.014824
+                }
+            }
+        },
+        "inputs": {
+            "mean_month_ppp": 211.9
+        }
+    },
+    "dataset": {
+        "source": "SLV_N1989Y",
+        "year": 1989,
+        "coverage": "National",
+        "timespan": "UnDefined",
+        "iso3c": "SLV",
+        "format": "Grouped",
+        "country": "El Salvador",
+        "measure": "Income"
+    },
+    "summary": {
+        "lorenz_validity": "Invalid",
+        "Z": {
+            "high": -1.0,
+            "low": -1.0
+        },
+        "sse_up_to_hcindex": 2.85203e-07,
+        "poverty_normality": "Normal",
+        "sse_fitted": -1.0
+    },
+    "inputs": {
+        "line_month_ppp": 57.7917,
+        "mean_month_ppp": 211.9
+    },
+    "beta": {
+        "implied": {
+            "theta": 0.8937142,
+            "gamma": 0.9383642,
+            "delta": 0.5129004
+        },
+        "summary": {
+            "lorenz_validity": "Invalid",
+            "Z": {
+                "high": 824.738,
+                "low": 0.0
+            },
+            "sse_up_to_hcindex": 2.85203e-07,
+            "poverty_normality": "Normal",
+            "sse_fitted": 3.84545e-05
+        },
+        "reg": {
+            "SSE": 0.0004435626,
+            "SST": 1.370954,
+            "R2": 0.9996765,
+            "RMSE": 0.008598087,
+            "ymean": -1.389714,
+            "MSE": 7.392709e-05,
+            "params": {
+                "A": {
+                    "coef": -0.112369,
+                    "t": -8.24679,
+                    "se": 0.013626
+                },
+                "B": {
+                    "coef": 0.938364,
+                    "t": 119.068,
+                    "se": 0.0078809
+                },
+                "C": {
+                    "t": 65.0816,
+                    "coef": 0.5129,
+                    "se": 0.0078809
+                }
+            }
+        },
+        "dist": {
+            "PG": 11.2405,
+            "HC": 18.9762,
+            "elasticity": {
+                "HC_wrt_mean_C": -1.03322,
+                "FGT2_wrt_mean_C": -0.205423,
+                "HC_wrt_Gini": 2.7552,
+                "PG_wrt_Gini": 5.50177,
+                "FGT2_wrt_Gini": 7.88102,
+                "PG_wrt_mean_C": -0.688195
+            },
+            "Watt": "0.0807128",
+            "FGT2": 10.1935
+        },
+        "inputs": {
+            "line_month_ppp": 57.7917,
+            "mean_month_ppp": 211.9
+        }
+    }
+}

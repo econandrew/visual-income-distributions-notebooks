@@ -1,0 +1,182 @@
+{
+    "dist": {
+        "elasticity": {
+            "HC_wrt_mean_C": -0.800014,
+            "FGT2_wrt_mean_C": -0.932238,
+            "HC_wrt_Gini": 0.836112,
+            "PG_wrt_Gini": 2.98053,
+            "FGT2_wrt_Gini": 5.06454,
+            "PG_wrt_mean_C": -0.895027
+        },
+        "Watt": "0.404654",
+        "uses": "neither",
+        "FGT2": 15.464,
+        "poverty_uses": "Beta",
+        "PG": 22.672,
+        "HC": 42.9641,
+        "poverty_uses_commentary": "(Both are invalid but beta is normal.)",
+        "uses_commentary": "(Neither GQ nor Beta is invalid)"
+    },
+    "lorenz": {
+        "L": [
+            0.005459636,
+            0.01881307,
+            0.04321459,
+            0.07717164,
+            0.1256437,
+            0.1895835,
+            0.2796769,
+            0.3953463,
+            0.552284,
+            1.0
+        ],
+        "index": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+        ],
+        "p": [
+            0.1031031,
+            0.1921922,
+            0.2872873,
+            0.3813814,
+            0.4824825,
+            0.5795796,
+            0.6816817,
+            0.7887888,
+            0.8878879,
+            1.0
+        ]
+    },
+    "quadratic": {
+        "summary": {
+            "lorenz_validity": "Invalid",
+            "Z": {
+                "high": 573.871,
+                "low": 2.85458
+            },
+            "sse_up_to_hcindex": 5.20068e-07,
+            "poverty_normality": "Abnormal",
+            "sse_fitted": 1.79439e-05
+        },
+        "reg": {
+            "SSE": 4.171526e-05,
+            "SST": 0.07023544,
+            "R2": 0.9994061,
+            "RMSE": 0.002636768,
+            "ymean": 0.1208581,
+            "MSE": 6.952544e-06,
+            "params": {
+                "A": {
+                    "coef": 1.04271,
+                    "t": 48.9304,
+                    "se": 0.02131
+                },
+                "B": {
+                    "coef": -0.135665,
+                    "t": -1.29592,
+                    "se": 0.10469
+                },
+                "C": {
+                    "t": -1.3061,
+                    "coef": -0.0203726,
+                    "se": 0.015598
+                }
+            }
+        },
+        "inputs": {
+            "mean_month_ppp": 118.191
+        }
+    },
+    "dataset": {
+        "source": "GNB_N1991X",
+        "year": 1991,
+        "coverage": "National",
+        "timespan": "UnDefined",
+        "iso3c": "GNB",
+        "format": "Grouped",
+        "country": "Guinea-Bissau",
+        "measure": "Consumption"
+    },
+    "summary": {
+        "lorenz_validity": "Invalid",
+        "Z": {
+            "high": -1.0,
+            "low": -1.0
+        },
+        "sse_up_to_hcindex": 2.23806e-06,
+        "poverty_normality": "Normal",
+        "sse_fitted": -1.0
+    },
+    "inputs": {
+        "line_month_ppp": 57.7917,
+        "mean_month_ppp": 118.191
+    },
+    "beta": {
+        "implied": {
+            "theta": 0.9729509,
+            "gamma": 0.9906174,
+            "delta": 0.4329429
+        },
+        "summary": {
+            "lorenz_validity": "Invalid",
+            "Z": {
+                "high": 541.812,
+                "low": 0.754007
+            },
+            "sse_up_to_hcindex": 2.23806e-06,
+            "poverty_normality": "Normal",
+            "sse_fitted": 1.60647e-05
+        },
+        "reg": {
+            "SSE": 0.0001061143,
+            "SST": 1.81129,
+            "R2": 0.9999414,
+            "RMSE": 0.004205438,
+            "ymean": -1.287451,
+            "MSE": 1.768571e-05,
+            "params": {
+                "A": {
+                    "coef": -0.0274217,
+                    "t": -3.9008,
+                    "se": 0.0070298
+                },
+                "B": {
+                    "coef": 0.990617,
+                    "t": 245.781,
+                    "se": 0.0040305
+                },
+                "C": {
+                    "t": 103.676,
+                    "coef": 0.432943,
+                    "se": 0.0041759
+                }
+            }
+        },
+        "dist": {
+            "PG": 22.672,
+            "HC": 42.9641,
+            "elasticity": {
+                "HC_wrt_mean_C": -0.800014,
+                "FGT2_wrt_mean_C": -0.932238,
+                "HC_wrt_Gini": 0.836112,
+                "PG_wrt_Gini": 2.98053,
+                "FGT2_wrt_Gini": 5.06454,
+                "PG_wrt_mean_C": -0.895027
+            },
+            "Watt": "0.404654",
+            "FGT2": 15.464
+        },
+        "inputs": {
+            "line_month_ppp": 57.7917,
+            "mean_month_ppp": 118.191
+        }
+    }
+}
