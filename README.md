@@ -2,7 +2,7 @@
 
 ## Main report
 
-Report contains the main report notebooks. To compile a pdf, use
+Report contains the main report notebooks. To compile a pdf, change directory to `Report/` then use
 
 `make clean`
 
@@ -10,7 +10,7 @@ then
 
 `make pdf2`
 
-This requires, in addition to an up-to-date Jupyter installation, a LaTeX installation with `pdflatex` available.
+This requires, in addition to an up-to-date Jupyter installation, a LaTeX installation with `pdflatex` available. I can't guarantee there aren't other crazy dependencies...
 
 There are other `Makefile` targets which was a previous attempts at generating a report (using `nbconvert` to HTML then headless Chrome to PDF). Unfortunately the MathJax library (which converts LaTeX maths notation to symbols) does not load in time for headless Chrome, so the end PDF ends up with notation instead of symbols. Hence the pure LaTeX -> PDF method now.
 
