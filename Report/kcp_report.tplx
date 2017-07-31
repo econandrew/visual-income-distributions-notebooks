@@ -15,15 +15,16 @@
 
 ((* block abstract *))
 \abstract{
-The distribution of wealth and income is an issue of particular recent public, as well as long-term academic, interest. While much discussion of distribution is anecdotal, objective data on income distribution is available from sources such as censuses, income surveys and taxation records.
 
-The World Bank hosts a substantial public database of income distribution information in the form of PovCalNet. PovCalNet is primarily designed as an online interface to replicate the Bank's calculations on the incidence of extreme poverty globally. As a by-product, it provides information on the income (or consumption) distributions of many of the world's economies at multiple points in time. However, in general this information is not easily accessible---a point of criticism from others in the development community.
+The distribution of wealth and income is an issue of particular recent public, as well as long-term academic, interest. In 2013, the World Bank Group adopted two new goals to guide its work: ending extreme poverty and boosting shared prosperity. The latter goal, to foster income growth of the bottom 40 percent of the population in each country, demands better and more widely accessible approaches for analyzing and communicating about distribution data.  While much discussion of distribution is anecdotal, objective data on income distribution is available from sources such as censuses, income surveys and taxation records.
 
-The objective of this project was to make access to this data easier, exposing the distributional component of PovCalNet source data, and allowing visual manipulation of income distributions. This report details the various stages of data extraction, modelling and visualization that were undertaken to produce the prototype web app, which is available at:
+The World Bank hosts a substantial public database of income distribution information in the form of PovCalNet. PovCalNet is primarily designed as an online interface to replicate the Bank's calculations of the incidence of extreme poverty globally. As a by-product, it provides information on the income (or consumption) distributions of many of the world's economies at multiple points in time. However, in general this information is not easily accessible---a point of criticism from others in the development community.
+
+The objective of this project was to make access to this data easier, exposing the distributional component of PovCalNet source data, and allowing visual manipulation of income distributions. This report details the various stages of data extraction, modeling and visualization that were undertaken to produce the prototype web app, which is available at:
 
 http://econandrew.github.io/visual-income-distributions/
 
-The project is very much still a work in progress, and so this report is mostly intended to capture issues, trade-offs and initial design decisions, rather than a set of best practices - though in time we hope it may evolve to do the latter.
+The project is still a work in progress, and so this report is mostly intended to capture issues, trade-offs and initial design decisions, rather than a set of best practices - though in time we hope it may evolve to do the latter.
 }
 ((* endblock abstract *))
 
